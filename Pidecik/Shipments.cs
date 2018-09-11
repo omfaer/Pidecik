@@ -66,6 +66,7 @@ namespace Pidecik
                 }
             }
         }
+        //TODO: show shipment's products 
 
         private void shipment_sarch_tbx_TextChanged(object sender, EventArgs e)
         {

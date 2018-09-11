@@ -85,6 +85,7 @@ namespace Pidecik
                         helper.add_shipment_order_product(s_number, p_id);
                     }
                     MessageBox.Show(s_number + " Numaralı Gönderi Oluşturuldu","Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    total_price = 0;
                     this.Close();
                 }catch{
                     MessageBox.Show("Eksik ya da yanlış bilgi girdiniz. Lütfen kontrol edip tekrar deneyiniz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -149,7 +150,6 @@ namespace Pidecik
 
         private void add_product_btn_Click(object sender, EventArgs e)
         {
-            /* listview ya da bir datatable a birden fazla sipariş ekleyip o verileri kullanarak neworder butonu tetiklensin */
             p_id = (int)product_list_dgw.Rows[product_list_dgw.CurrentRow.Index].Cells[0].Value;
 
             Database.connection_control();
