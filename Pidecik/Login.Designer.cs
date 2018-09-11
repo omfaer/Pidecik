@@ -46,7 +46,6 @@
             this.login_btn.Text = "Giriş Yap";
             this.login_btn.UseSelectable = true;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
-            this.login_btn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.password_tbx_KeyDown);
             // 
             // user_name_tbx
             // 
