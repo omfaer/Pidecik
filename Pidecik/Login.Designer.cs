@@ -45,7 +45,6 @@
             this.login_btn.TabIndex = 5;
             this.login_btn.Text = "Giriş Yap";
             this.login_btn.UseSelectable = true;
-            this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
             // user_name_tbx
             // 
@@ -53,10 +52,10 @@
             // 
             // 
             this.user_name_tbx.CustomButton.Image = null;
-            this.user_name_tbx.CustomButton.Location = new System.Drawing.Point(277, 2);
+            this.user_name_tbx.CustomButton.Location = new System.Drawing.Point(208, 2);
             this.user_name_tbx.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.user_name_tbx.CustomButton.Name = "";
-            this.user_name_tbx.CustomButton.Size = new System.Drawing.Size(39, 36);
+            this.user_name_tbx.CustomButton.Size = new System.Drawing.Size(29, 29);
             this.user_name_tbx.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.user_name_tbx.CustomButton.TabIndex = 1;
             this.user_name_tbx.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -86,10 +85,10 @@
             // 
             // 
             this.password_tbx.CustomButton.Image = null;
-            this.password_tbx.CustomButton.Location = new System.Drawing.Point(277, 2);
+            this.password_tbx.CustomButton.Location = new System.Drawing.Point(208, 2);
             this.password_tbx.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.password_tbx.CustomButton.Name = "";
-            this.password_tbx.CustomButton.Size = new System.Drawing.Size(39, 36);
+            this.password_tbx.CustomButton.Size = new System.Drawing.Size(29, 29);
             this.password_tbx.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.password_tbx.CustomButton.TabIndex = 1;
             this.password_tbx.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -112,6 +111,7 @@
             this.password_tbx.UseSelectable = true;
             this.password_tbx.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.password_tbx.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.password_tbx.KeyDown += new System.Windows.Forms.KeyEventHandler(this.password_tbx_KeyDown);
             // 
             // username_lbl
             // 
