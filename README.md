@@ -23,7 +23,26 @@ _SQL Server 2014 Management Studio_
 
     - Run [Pidecik Data](https://gist.github.com/omfaer/6b477939f3de5a49ce7d5efb9baafed8)
 
+## Screenshots
 
+##### Login
+
+![login](https://i.imgur.com/JCULgWx.jpg)
+
+##### Management Panel
+![Management Panel](https://i.imgur.com/FfH6Vwe.jpg)
+
+##### Tables
+![Tables](https://i.imgur.com/V9npj3h.jpg)
+
+##### Table Order
+![Order Table](https://i.imgur.com/IAVAl03.jpg)
+
+##### New Shipment
+![New Shipment](https://i.imgur.com/k3Z93Xy.jpg)
+
+##### Show Shipments
+![Show Shipment](https://i.imgur.com/02MP8uw.jpg)
 
 ## 3rd Parties
 Metro UI was used in this project.
